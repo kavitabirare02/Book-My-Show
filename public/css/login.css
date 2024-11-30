@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-size: cover!important;
+    background-attachment:fixed;
+    height: 100vh;
+    color: #fff;
+    overflow-y: auto;
+    background: url('/img/form-bg.avif'),rgba(0,0,0,0.4);
+    background-blend-mode: overlay;
+    background-position: 60%;
+    background-repeat: no-repeat;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 20px 50px;
+    backdrop-filter: blur(30px);
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
